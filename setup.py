@@ -23,7 +23,7 @@ setup(
         'Development Status :: 4 - Beta',
 
         'Intended Audience :: Developers',
-        'Topic :: Software Development :: Version Control'
+        'Topic :: Software Development :: Version Control',
 
         'License :: OSI Approved :: MIT License',
 
