@@ -1,2 +1,3 @@
 .pyenv/
+sally.egg-info/
 *.pyc

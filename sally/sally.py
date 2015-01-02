@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Sally
 Check status of all repositories in subdirectories.
@@ -9,10 +8,9 @@ and see if there's any uncommited changes.
 
 import subprocess
 import argparse
-
 import os
-from lib.color import Color
 
+from sally.lib.color import Color
 
 _arguments = None
 
@@ -103,6 +101,7 @@ def parse_args():
         _arguments.mercurial = True
 
 
-if __name__ == '__main__':
+#if __name__ == '__main__':
+def main():
     parse_args()
     repo_all_status(os.getcwd())
